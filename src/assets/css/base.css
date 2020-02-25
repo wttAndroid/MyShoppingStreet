@@ -1,0 +1,85 @@
+@import "normalize.css";
+@import "//at.alicdn.com/t/font_1650808_88kt3czg2yk.css";
+@import "//at.alicdn.com/t/font_1650808_8wu8t1ks0v.css";
+
+@import '//at.alicdn.com/t/font_1650808_sups8yjmnzo.css';
+:root {
+  --color-text: #666;/* 字体颜色 */
+  --color-hightext: #ff5777;/* 字体高亮颜色 */
+  --color-tint: #ff8198; /* 导航栏背景 */
+  --color-background: #fff; /* 正常背景颜色 */
+  font-size: 14px;/* 字体带下 */
+  --line-height:1.4;/*字体行高*/
+}
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  background-color: var(--color-background);
+  font-family: Helvetica;
+  -webkit-tap-highlight-color: transparent;
+  color: var(--color-text);
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+/*@font-face {*/
+/*  font-family: 'iconfont';*/
+/*  src: url('iconfont.eot');*/
+/*  src: url('iconfont.eot?#iefix') format('embedded-opentype'),*/
+/*  url('iconfont.woff2') format('woff2'),*/
+/*  url('iconfont.woff') format('woff'),*/
+/*  url('iconfont.ttf') format('truetype'),*/
+/*  url('iconfont.svg#iconfont') format('svg');*/
+/*}*/
+/*.iconfont {*/
+/*  font-family: "iconfont" !important;*/
+/*  font-size: 16px;*/
+/*  font-style: normal;*/
+/*  -webkit-font-smoothing: antialiased;*/
+/*  -moz-osx-font-smoothing: grayscale;*/
+/*}*/
+img {
+
+  /*content: normal !important;*/
+
+}
